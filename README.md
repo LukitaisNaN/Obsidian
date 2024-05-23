@@ -13,8 +13,8 @@ o desde la consola, con git
 ```git
 git clone https://github.com/LukitaisNaN/Obsidian.git
 ```
-en la carpeta que quieras guardar el contenido. 
-
+en la carpeta que quieras guardar el contenido.
+***
 Ignorá la carpeta '.obsidian'. Es de una aplicación que uso para visualizar estas cosas y tomar notas.
 
 (Me copaba tirar facha poniendo este .md, queda re lindo con toda esta identación y títulos jajajaj)
