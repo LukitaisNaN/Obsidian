@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "stdio.h": "c",
-        "array_helpers.h": "c",
-        "mybool.h": "c"
-    }
-}

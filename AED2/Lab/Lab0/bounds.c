@@ -1,5 +1,8 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
+
+#define ARRAY_SIZE 4
 
 struct bound_data {
     bool is_upperbound;
@@ -8,77 +11,28 @@ struct bound_data {
     unsigned int where;
 };
 
-struct bound_data checkBound(int value, int arr[], unsigned int length){
-   
-    struct bound_data s1 = {true, true, false, -1};
-    
-    for (int i = 0; i < length; i++)
-    {
-        if (value > arr[i])
-        {
-            s1.is_lowerbound = false;
-        }
-        else if (value < arr[i])
-        {
-            s1.is_upperbound = false;
-        }
-        else if (arr[i] == value)
-        {
-            s1.exists = true;
-            s1.where = i;
-        }
-    }
-    
-    return s1;
+struct bound_data check_bound(int value, int arr[], unsigned int length) {
+    struct bound_data res;
+    //
+    // TODO: COMPLETAR
+    //
+    return res;
 }
 
-int main()
-{
-    int a = 0;
-    int arrayLength = 0;
-    
-    printf("Valor a comparar\n");
-    scanf("%d", &a);
-    
-    printf("Largo del array:\n");
-    scanf("%d", &arrayLength);
-    
-    int array[arrayLength];
+int main(void) {
+    int a[ARRAY_SIZE] = {0, -1, 9, 4};
+    int value=9;
+    //
+    // TODO: COMPLETAR - Pedir entrada al usuario
+    //
+    struct bound_data result = check_bound(value, a, ARRAY_SIZE);
 
-    for (int i = 0; i < arrayLength; i++)
-    {
-        int c = 0;
-        printf("Valor para elemento en posicion %d:\n", i);
-        scanf("%d",&c);
-        array[i] = c; 
-    }
+    // TODO: REEMPLAZAR LO SIGUIENTE LUEGO POR LA SALIDA QUE PIDE EL ENUNCIADO
+    printf("%d", result.is_upperbound); // Imprime 1
+    printf("%d", result.is_lowerbound); // Imprime 0
+    printf("%u", result.exists);        // Imprime 1
+    printf("%u", result.where);         // Imprime 2
 
-    struct bound_data result = checkBound(a, array, arrayLength);
-
-    if (result.is_upperbound)
-    {
-        printf("El valor es mayor o igual a todos los elementos del array\n");
-    }
-    else
-    {
-        printf("El valor no es mayor o igual a todos los elementos del array\n");
-    }
-
-    if (result.is_lowerbound)
-    {
-        printf("El elemento es menor o igual a todos los elementos del array\n");
-    }
-    else
-    {
-        printf("El elemento no es menor o igual a todos los elementos del array\n");
-    }
-
-    if (result.exists)
-    {
-        printf("Existe un elemento igual al ingresado en la lista, ubicado en la posicion %d\n", result.where);
-    }
-    
-    
-
-    return 0;
+    return EXIT_SUCCESS;
 }
+

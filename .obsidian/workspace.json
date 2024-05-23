@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d847c537ca2c9cba",
+        "id": "6c5741383007f5d3",
         "type": "tabs",
         "children": [
           {
-            "id": "e1a1964f77b9cfa6",
+            "id": "5381e354f379adf7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -120,14 +120,6 @@
               "type": "outline",
               "state": {}
             }
-          },
-          {
-            "id": "5b7bd679a7ab8f04",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
         ]
       }
@@ -146,24 +138,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1a1964f77b9cfa6",
+  "active": "5381e354f379adf7",
   "lastOpenFiles": [
-    "AED2/Teórico/0-Introducción-al-Lenguaje/0-Presentación Lenguaje Materia Algo2.pdf",
-    "AED2/Teórico/0-Introducción-al-Lenguaje",
+    "AED2/Lab/Pegale una leída a esto.md",
+    "AED2/Lab/Lab5/lab05-2024.pdf",
+    "AED2/Lab/Lab5/ej2a/reverse/input/example-unsorted.in",
+    "AED2/Lab/Lab5/ej2a/reverse/input/example-sorted.in",
+    "AED2/Lab/Lab5/ej2a/reverse/input/example-easy.in",
+    "AED2/Lab/Lab5/ej2a/reverse/input/empty.in",
+    "AED2/Lab/Lab5/ej2a/reverse/reverse.c",
+    "AED2/Lab/Lab5/ej2a/reverse/input",
+    "AED2/Lab/Lab5/ej2a/reverse/array_helpers.h",
+    "AED2/Lab/Lab5/ej2a/reverse/array_helpers.c",
+    "AED2/Lab/Lab5/ej2a/reverse/Makefile",
     "AED2/Teórico/9-Voraces-sobre-Grafos/Links (Falta agregar).md",
-    "AED2/Teórico/9-Voraces-sobre-Grafos/Teórico-9.pdf",
     "AED2/Teórico/8-Algoritmos-Voraces/Links.md",
-    "AED2/Teórico/9-Voraces-sobre-Grafos/Práctico-9.pdf",
-    "AED2/Teórico/8-Algoritmos-Voraces/Práctico-8.pdf",
     "AED2/Teórico/6-Pilas-y-Colas/Link.md",
-    "AED2/Teórico/8-Algoritmos-Voraces/Teórico-8.pdf",
     "AED2/Teórico/7-Arboles/Link.md",
-    "AED2/Teórico/7-Arboles/Práctico-7.pdf",
-    "AED2/Teórico/6-Pilas-y-Colas/Práctico-6.pdf",
-    "AED2/Teórico/7-Arboles/Teórico-7.pdf",
-    "AED2/Teórico/6-Pilas-y-Colas/Teorico-6.pdf",
     "AED2/Teórico/5-Tipos-Abstractos/Links.md",
-    "AED2/Teórico/5-Tipos-Abstractos/Teórico-5.pdf",
     "AED2/Teórico/4-Tipos-Concretos/Links.md",
     "AED2/Teórico/3-Divide&Conqueror/Links.md",
     "AED2/Teórico/2-Ordenacion-Avanzada/Link-Videos-Explicativos.md",

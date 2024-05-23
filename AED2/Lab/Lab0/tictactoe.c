@@ -1,196 +1,92 @@
-#include <stdio.h>
-#include <stdbool.h>
+#include <stdlib.h>  /* exit() y EXIT_FAILURE */
+#include <stdio.h>   /* printf(), scanf()     */
+#include <stdbool.h> /* Tipo bool             */
+
+#include <assert.h>  /* assert() */
+
+#define CELL_MAX (3 * 3 - 1)
+
+void print_sep(int length) {
+    printf("\t ");
+    for (int i=0; i < length;i++) printf("................");
+    printf("\n");
+
+}
+
+void print_board(char board[3][3])
+{
+    int cell = 0;
+
+    print_sep(3);
+    for (int row = 0; row < 3; ++row) {
+        for (int column = 0; column < 3; ++column) {
+            printf("\t | %d: %c ", cell, board[row][column]);
+            ++cell;
+        }
+        printf("\t | \n");
+        print_sep(3);
+    }
+}
+
+char get_winner(char board[3][3])
+{
+    char winner = '-';
+    //
+    // TODO: COMPLETAR
+    //
+    return winner;
+}
 
 bool has_free_cell(char board[3][3])
 {
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 3; j++)
-        {
-            if (board[i][j] == '-')
-            {
-                return true;
-            }   
-        }
-    }
-    return false;
+    bool free_cell=false;
+    //
+    // TODO: COMPLETAR
+    //
+    return free_cell;
 }
 
-bool checkFreeCell(char table[3][3], int row, int column)
+int main(void)
 {
-    if (table[row-1][column-1] != '-')
-    {
-        return true;
-    }
-    
-    return false;
-}
+    printf("TicTacToe [InCoMpLeTo :'(]\n");
 
-int modify(int file, int column, char (*table)[3][3], char symbol)
-{
-    (*table)[file-1][column-1] = symbol;
-    printf("%c ubicada en fila %d y columna %d!\n", symbol, file, column);
-    return 0;
-}
-
-int getCoordinates(char symbol, int *row, int *column)
-{
-    int r = 0;
-    int c = 0;
-    printf("Coordenadas para posicionar '%c': (entre 1 y 3)\n", symbol);
-        
-    //Ask for row coordinates
-    printf("Fila: ");
-    scanf("%d", &r);
-
-    //Ask for column coordinates
-    printf("Columna: ");
-    scanf("%d", &c);
-    
-    *row = r;
-    *column = c; 
-    return 0;
-}
-
-int printBoard(char table[3][3])
-{
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 3; j++)
-        {
-            printf("\t%c", table[i][j]);
-        }
-        printf("\n");
-    }
-    return 0;
-}
-
-char checkForWinner(char table[3][3], bool *num)
-{
-
-    //Check row winner
-    for (int i = 0; i < 3; i++)
-    {
-        if ((table[i][0] == table[i][1]) && (table[i][2] == table[i][1]) && table[i][i] != '-')
-        {
-            *num = false;
-            return table[i][0];
-        }
-    }   
-
-    //Check column winner
-    for (int i = 0; i < 3; i++)
-    {
-        if ((table[0][i] == table[1][i]) && (table[2][i] == table[1][i]) && table[i][i] != '-')
-        {
-            *num = false;
-            return table[0][i];
-        }
-            
-    }
-
-    //Check for diagonal winner
-    if (
-            //Avoid checking for empty tables
-            table[1][1] != '-'
-            &&
-            (
-                //Left up to right down
-                (
-                    (table[0][0] == table[1][1]) 
-                        && 
-                    (table[1][1] == table[2][2])
-                ) 
-
-                || 
-
-                //Right up to down left
-                (
-                    (table[0][2] == table[1][1]) 
-                        && 
-                    (table[1][1] == table[2][0])
-                )
-            )
-        )
-    {
-      *num = false;
-      return table[1][1];  
-    }
-    
-    
-    return '(';
-}
-
-int main()
-{
-    //Initialize board
-    char board[3][3] = 
-    {
-        {'-', '-', '-'},
-        {'-', '-', '-'},
-        {'-', '-', '-'}
+    char board[3][3] = {
+        { '-', '-', '-' },
+        { '-', '-', '-' },
+        { '-', '-', '-' }
     };
 
-    //Litterally the function name
-    printBoard(board);
-
-    char p1 = 'X';
-    char p2 = 'O';
-
-    bool ended = true;
-    //Verify that board has free cells and modify them (Game code)
-    while (has_free_cell(board) && ended)
-    {
-        int r = 0;
-        int c = 0;
-
-        getCoordinates(p1, &r, &c);
-
-        //Read function's name again
-        while (checkFreeCell(board, r,c))
-        {
-            printf("Posicion ocupada, reintroducir valores\n");
-            getCoordinates(p1, &r, &c);
+    char turn = 'X';
+    char winner = '-';
+    int cell = 0;
+    while (winner == '-' && has_free_cell(board)) {
+        print_board(board);
+        printf("\nTurno %c - Elija posición (número del 0 al %d): ", turn,
+               CELL_MAX);
+        int scanf_result = scanf("%d", &cell);
+        if (scanf_result <= 0) {
+            printf("Error al leer un número desde teclado\n");
+            exit(EXIT_FAILURE);
         }
-        
-        //Add 'X' to board
-        modify(r, c, &board, p1);
-
-        checkForWinner(board, &ended);
-        if (ended == false)
-        {
-            printBoard(board);
-            break;
-        }
-    
-        //Search for free cells to place 'O' and modify
-        if (has_free_cell(board))
-        {
-            printBoard(board);
-
-            getCoordinates(p2, &r, &c);
-
-            while (checkFreeCell(board, r,c))
-            {
-                printf("Posicion ocupada, reintroducir valores\n");
-                getCoordinates(p2, &r, &c);
+        if (cell >= 0 && cell <= CELL_MAX) {
+            int row = cell / 3;
+            int colum = cell % 3;
+            if (board[row][colum] == '-') {
+                board[row][colum] = turn;
+                turn = turn == 'X' ? 'O' : 'X';
+                winner = get_winner(board);
+            } else {
+                printf("\nCelda ocupada!\n");
             }
-            
-            modify(r, c, &board, p2);
-
-            checkForWinner(board, &ended);
-
-            if (ended == false)
-            {
-                printBoard(board);
-                break;
-            }
+        } else {
+            printf("\nCelda inválida!\n");
         }
-
-        printBoard(board);    
     }
-
-    char winner = checkForWinner(board, &ended);
-    printf("The winner is :%c!", winner);
+    print_board(board);
+    if (winner == '-') {
+        printf("Empate!\n");
+    } else {
+        printf("Ganó %c\n", winner);
+    }
     return 0;
 }
