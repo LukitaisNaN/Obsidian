@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "51c0a285f471706c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d847c537ca2c9cba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1a1964f77b9cfa6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9fb230d452164f07",
+    "type": "split",
+    "children": [
+      {
+        "id": "6724537d9a8cf11d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bec767f2d97d8ea8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a7811edea0ac75c3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d56f6f8de7242b6a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6216281def09961e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9580c0d694b6451",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2e33774b33b19a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cb465f6f5245c4ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "92fc31e73a4e429d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a978e07bb23cd833",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "5b7bd679a7ab8f04",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e1a1964f77b9cfa6",
+  "lastOpenFiles": [
+    "AED2/Teórico/0-Introducción-al-Lenguaje/0-Presentación Lenguaje Materia Algo2.pdf",
+    "AED2/Teórico/0-Introducción-al-Lenguaje",
+    "AED2/Teórico/9-Voraces-sobre-Grafos/Links (Falta agregar).md",
+    "AED2/Teórico/9-Voraces-sobre-Grafos/Teórico-9.pdf",
+    "AED2/Teórico/8-Algoritmos-Voraces/Links.md",
+    "AED2/Teórico/9-Voraces-sobre-Grafos/Práctico-9.pdf",
+    "AED2/Teórico/8-Algoritmos-Voraces/Práctico-8.pdf",
+    "AED2/Teórico/6-Pilas-y-Colas/Link.md",
+    "AED2/Teórico/8-Algoritmos-Voraces/Teórico-8.pdf",
+    "AED2/Teórico/7-Arboles/Link.md",
+    "AED2/Teórico/7-Arboles/Práctico-7.pdf",
+    "AED2/Teórico/6-Pilas-y-Colas/Práctico-6.pdf",
+    "AED2/Teórico/7-Arboles/Teórico-7.pdf",
+    "AED2/Teórico/6-Pilas-y-Colas/Teorico-6.pdf",
+    "AED2/Teórico/5-Tipos-Abstractos/Links.md",
+    "AED2/Teórico/5-Tipos-Abstractos/Teórico-5.pdf",
+    "AED2/Teórico/4-Tipos-Concretos/Links.md",
+    "AED2/Teórico/3-Divide&Conqueror/Links.md",
+    "AED2/Teórico/2-Ordenacion-Avanzada/Link-Videos-Explicativos.md",
+    "2024-05-23.md"
+  ]
+}

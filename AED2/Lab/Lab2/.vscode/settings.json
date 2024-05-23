@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "fixstring.h": "c",
+        "assert.h": "c",
+        "array_helpers.h": "c",
+        "sort_helpers.h": "c",
+        "sort.h": "c",
+        "stdio.h": "c",
+        "stdbool.h": "c",
+        "stdlib.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "random": "c",
+        "time.h": "c"
+    },
+    "vim.statusBarColors.normal": "",
+    "vim.startInInsertMode": false
+}
