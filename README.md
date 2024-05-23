@@ -5,7 +5,11 @@ Nada, acá queda todo el contenido de las materias del 1er cuatri de 2do año.
 
 Descarga 
 --- 
-Podés descargar el contenido usando las opciones de descarga de github o
+Podés descargar el contenido usando las opciones de descarga de github:
+
+![image](https://github.com/LukitaisNaN/Obsidian/assets/163791028/a4943eff-4b1a-4042-ae54-acf376164af2)
+
+o desde la consola, con git
 ```git
 git clone https://github.com/LukitaisNaN/Obsidian.git
 ```
