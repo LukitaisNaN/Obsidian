@@ -8,11 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5381e354f379adf7",
+            "id": "0bc7bb6c2e7ffeff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "AN1/Global/AN2022-Teorico.pdf"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AN1/Global/AN2022-Teorico.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AN1/Global/AN2022-Teorico.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AN1/Global/AN2022-Teorico.pdf"
+              }
             }
           }
         ]
@@ -138,8 +144,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5381e354f379adf7",
+  "active": "0bc7bb6c2e7ffeff",
   "lastOpenFiles": [
+    "AN1/Integración numérica/Regla de Simpson.md",
+    "AN1/Images/Regla de Simpson/0-Simpson-Formula.png",
+    "AN1/Images/Regla de Simpson/4-Demostracion.png",
+    "AN1/Images/Regla de Simpson/8-Demostracion.png",
+    "AN1/Images/Regla de Simpson/9-Demostracion.png",
+    "AN1/Images/Regla de Simpson/1-Simpson.png",
+    "AN1/Images/Regla de Simpson",
+    "AN1/Images/Regla de Simpson/7-Demostracion.png",
+    "AN1/Images/Regla de Simpson/6-Demostracion.png",
+    "AN1/Images/Regla de Simpson/5-Demostracion.png",
+    "AN1/Images/Regla de Simpson/3-Demostracion.png",
+    "AN1/Images/Regla de Simpson/2-Demostracion.png",
+    "AN1/Images",
+    "AN1/Demostraciones/Regla de Simpson.md",
+    "Untitled 1.md",
+    "AN1/Demostraciones",
+    "AN1/Integración numérica",
     "AED2/Lab/Pegale una leída a esto.md",
     "AED2/Lab/Lab5/lab05-2024.pdf",
     "AED2/Lab/Lab5/ej2a/reverse/input/example-unsorted.in",
@@ -147,10 +170,6 @@
     "AED2/Lab/Lab5/ej2a/reverse/input/example-easy.in",
     "AED2/Lab/Lab5/ej2a/reverse/input/empty.in",
     "AED2/Lab/Lab5/ej2a/reverse/reverse.c",
-    "AED2/Lab/Lab5/ej2a/reverse/input",
-    "AED2/Lab/Lab5/ej2a/reverse/array_helpers.h",
-    "AED2/Lab/Lab5/ej2a/reverse/array_helpers.c",
-    "AED2/Lab/Lab5/ej2a/reverse/Makefile",
     "AED2/Teórico/9-Voraces-sobre-Grafos/Links (Falta agregar).md",
     "AED2/Teórico/8-Algoritmos-Voraces/Links.md",
     "AED2/Teórico/6-Pilas-y-Colas/Link.md",

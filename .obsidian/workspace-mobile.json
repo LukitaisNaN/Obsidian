@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "21ec48ddabf8d8bd",
+        "id": "f89471ac98568fa1",
         "type": "tabs",
         "children": [
           {
-            "id": "b6d51f1ecd4897ed",
+            "id": "a6ea5cc84fc8dcf6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -123,19 +123,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6d51f1ecd4897ed",
+  "active": "a6ea5cc84fc8dcf6",
   "lastOpenFiles": [
-    "ODC/tp-8/Clase - LEGv8 avanzado.pdf",
-    "ODC/tp-8/Green-Card-LEGv8.pdf",
-    "ODC/tp-8",
-    "ODC/tp-7/TP7 - Assembler de LEGv8 avanzado.pdf",
-    "ODC/tp-7",
-    "ODC/TP-8",
-    "AN1/AN2022-Teorico.pdf",
-    "AN1/Global/Notas-AN1.pdf",
-    "AN1/Global/AN2022-Teorico.pdf",
-    "AN1/Global",
-    "AN1/Notas-AN1.pdf",
+    "AED2/Lab/Lab3/ej2/array_helpers.c",
+    "AED2/Lab/Lab3/ej2/array_helpers.h",
+    "AED2/Lab/Lab3/ej2/weather.h",
+    "AED2/Lab/Lab3/ej2/weather.c",
+    "AED2/Lab/Lab3/ej2/main.c",
+    "AED2/Lab/Lab3/ej2",
+    "AED2/Lab/Lab2/ej5/input/example-easywords.in",
+    "AED2/Lab/Lab2/ej5/input/example-names.in",
+    "AED2/Lab/Lab2/ej5/sort.h",
+    "AED2/Lab/Lab2/ej5/array_helpers.c",
+    "AED2/Lab/Lab2/ej5/fixstring.c",
+    "AED2/Lab/Pegale una leída a esto.md",
     "AED2/Teórico/5-Tipos-Abstractos/Links.md",
     "AED2/Teórico/8-Algoritmos-Voraces/Links.md",
     "AED2/Teórico/6-Pilas-y-Colas/Link.md",
