@@ -11,8 +11,12 @@
             "id": "a6ea5cc84fc8dcf6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "AN1/Integración numérica/Regla de Simpson.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "AN1/Integración numérica/Regla de Simpson.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "AN1/Integración numérica/Regla de Simpson.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "AN1/Integración numérica/Regla de Simpson.md"
+          }
         }
       }
     ],
@@ -125,6 +133,8 @@
   },
   "active": "a6ea5cc84fc8dcf6",
   "lastOpenFiles": [
+    "README.md",
+    "AN1/Integración numérica/Regla de Simpson.md",
     "AED2/Lab/Lab3/ej2/array_helpers.c",
     "AED2/Lab/Lab3/ej2/array_helpers.h",
     "AED2/Lab/Lab3/ej2/weather.h",
@@ -135,7 +145,6 @@
     "AED2/Lab/Lab2/ej5/input/example-names.in",
     "AED2/Lab/Lab2/ej5/sort.h",
     "AED2/Lab/Lab2/ej5/array_helpers.c",
-    "AED2/Lab/Lab2/ej5/fixstring.c",
     "AED2/Lab/Pegale una leída a esto.md",
     "AED2/Teórico/5-Tipos-Abstractos/Links.md",
     "AED2/Teórico/8-Algoritmos-Voraces/Links.md",

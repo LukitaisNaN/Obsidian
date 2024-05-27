@@ -11,9 +11,11 @@
             "id": "0bc7bb6c2e7ffeff",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AN1/Global/AN2022-Teorico.pdf"
+                "file": "ODC/ARMv8 & RPI documentation/README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 237.5
   },
   "right": {
     "id": "6216281def09961e",
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AN1/Global/AN2022-Teorico.pdf",
+                "file": "ODC/ARMv8 & RPI documentation/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AN1/Global/AN2022-Teorico.pdf",
+                "file": "ODC/ARMv8 & RPI documentation/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AN1/Global/AN2022-Teorico.pdf"
+                "file": "ODC/ARMv8 & RPI documentation/README.md"
               }
             }
           }
@@ -131,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -146,30 +148,34 @@
   },
   "active": "0bc7bb6c2e7ffeff",
   "lastOpenFiles": [
+    "README.md",
+    "AED2/Lab/Lab5/lab05-2024.pdf",
+    "ODC/ARMv8 & RPI documentation/Trabajo de Laboratorio_ VC FrameBuffer en QEMU emulando RPi3.pdf",
+    "ODC/ARMv8 & RPI documentation/README.md",
+    "ODC/Lab2/rpi-asm-framebuffer/README3.md",
+    "ODC/Lab2/rpi-asm-framebuffer/bin/gpiom",
+    "ODC/Lab2/rpi-asm-framebuffer/start.s",
+    "ODC/Lab2/rpi-asm-framebuffer/start.o",
+    "ODC/Lab2/rpi-asm-framebuffer/memory_map.txt",
+    "ODC/Lab2/rpi-asm-framebuffer/memmap",
+    "ODC/Lab2/rpi-asm-framebuffer/kernel8.list",
+    "ODC/Lab2/rpi-asm-framebuffer/kernel8.img",
+    "ODC/Lab2/rpi-asm-framebuffer/kernel8.elf",
+    "ODC/Lab2/README2.md",
     "AN1/Integración numérica/Regla de Simpson.md",
     "AN1/Images/Regla de Simpson/0-Simpson-Formula.png",
     "AN1/Images/Regla de Simpson/4-Demostracion.png",
     "AN1/Images/Regla de Simpson/8-Demostracion.png",
     "AN1/Images/Regla de Simpson/9-Demostracion.png",
     "AN1/Images/Regla de Simpson/1-Simpson.png",
-    "AN1/Images/Regla de Simpson",
     "AN1/Images/Regla de Simpson/7-Demostracion.png",
     "AN1/Images/Regla de Simpson/6-Demostracion.png",
     "AN1/Images/Regla de Simpson/5-Demostracion.png",
     "AN1/Images/Regla de Simpson/3-Demostracion.png",
     "AN1/Images/Regla de Simpson/2-Demostracion.png",
-    "AN1/Images",
     "AN1/Demostraciones/Regla de Simpson.md",
     "Untitled 1.md",
-    "AN1/Demostraciones",
-    "AN1/Integración numérica",
     "AED2/Lab/Pegale una leída a esto.md",
-    "AED2/Lab/Lab5/lab05-2024.pdf",
-    "AED2/Lab/Lab5/ej2a/reverse/input/example-unsorted.in",
-    "AED2/Lab/Lab5/ej2a/reverse/input/example-sorted.in",
-    "AED2/Lab/Lab5/ej2a/reverse/input/example-easy.in",
-    "AED2/Lab/Lab5/ej2a/reverse/input/empty.in",
-    "AED2/Lab/Lab5/ej2a/reverse/reverse.c",
     "AED2/Teórico/9-Voraces-sobre-Grafos/Links (Falta agregar).md",
     "AED2/Teórico/8-Algoritmos-Voraces/Links.md",
     "AED2/Teórico/6-Pilas-y-Colas/Link.md",
