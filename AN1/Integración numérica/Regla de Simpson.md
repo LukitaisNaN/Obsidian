@@ -1,4 +1,4 @@
-> [!info] Fórmula 
+> [!tip] Fórmula 
 ![[0-Simpson-Formula.png]] 
 
 ---
