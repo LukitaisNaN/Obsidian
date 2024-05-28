@@ -13,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ODC/ARMv8 & RPI documentation/README.md",
+                "file": "AN1/Integración numérica/3 - Regla de Simpson.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a1f58e47d7f3f27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AN1/Integración numérica/2 - Regla del Trapecio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03191a9b3ad244df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AN1/Integración numérica/1 - Regla del Rectángulo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17895005fa5c1488",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AN1/Integración numérica/4 - Conclusiones.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7763193e55849ae9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AN1/Integración numérica/5 - Regla Compuesta de Simpson.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ODC/ARMv8 & RPI documentation/README.md",
+                "file": "AN1/Integración numérica/5 - Regla Compuesta de Simpson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ODC/ARMv8 & RPI documentation/README.md",
+                "file": "AN1/Integración numérica/5 - Regla Compuesta de Simpson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ODC/ARMv8 & RPI documentation/README.md"
+                "file": "AN1/Integración numérica/5 - Regla Compuesta de Simpson.md"
               }
             }
           }
@@ -146,23 +195,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bc7bb6c2e7ffeff",
+  "active": "7763193e55849ae9",
   "lastOpenFiles": [
+    "AN1/Integración numérica/4 - Conclusiones.md",
+    "AN1/Integración numérica/5 - Regla Compuesta de Simpson.md",
+    "AN1/Integración numérica/2 - Regla del Trapecio.md",
+    "AN1/Images/Regla del Trapecio/Pasted image 20240528091606.png",
+    "AN1/Integración numérica/1 - Regla del Rectángulo.md",
+    "AN1/Integración numérica/3 - Regla de Simpson.md",
+    "AN1/Images/Regla del Rectángulo/Figura-4.png",
+    "AN1/Images/Regla del Trapecio",
+    "AN1/Images/Regla del Rectángulo",
+    "AN1/Global/AN2022-Teorico.pdf",
+    "ODC/ARMv8 & RPI documentation/README.md",
     "README.md",
     "AED2/Lab/Lab5/lab05-2024.pdf",
     "ODC/ARMv8 & RPI documentation/Trabajo de Laboratorio_ VC FrameBuffer en QEMU emulando RPi3.pdf",
-    "ODC/ARMv8 & RPI documentation/README.md",
     "ODC/Lab2/rpi-asm-framebuffer/README3.md",
     "ODC/Lab2/rpi-asm-framebuffer/bin/gpiom",
     "ODC/Lab2/rpi-asm-framebuffer/start.s",
     "ODC/Lab2/rpi-asm-framebuffer/start.o",
     "ODC/Lab2/rpi-asm-framebuffer/memory_map.txt",
     "ODC/Lab2/rpi-asm-framebuffer/memmap",
-    "ODC/Lab2/rpi-asm-framebuffer/kernel8.list",
-    "ODC/Lab2/rpi-asm-framebuffer/kernel8.img",
-    "ODC/Lab2/rpi-asm-framebuffer/kernel8.elf",
     "ODC/Lab2/README2.md",
-    "AN1/Integración numérica/Regla de Simpson.md",
     "AN1/Images/Regla de Simpson/0-Simpson-Formula.png",
     "AN1/Images/Regla de Simpson/4-Demostracion.png",
     "AN1/Images/Regla de Simpson/8-Demostracion.png",
@@ -171,8 +226,6 @@
     "AN1/Images/Regla de Simpson/7-Demostracion.png",
     "AN1/Images/Regla de Simpson/6-Demostracion.png",
     "AN1/Images/Regla de Simpson/5-Demostracion.png",
-    "AN1/Images/Regla de Simpson/3-Demostracion.png",
-    "AN1/Images/Regla de Simpson/2-Demostracion.png",
     "AN1/Demostraciones/Regla de Simpson.md",
     "Untitled 1.md",
     "AED2/Lab/Pegale una leída a esto.md",
