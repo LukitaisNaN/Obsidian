@@ -4,7 +4,7 @@ La siguiente definición es de fundamental importancia en el estudio de las regl
 >La precisión o grado de exactitud de una fórmula o regla de cuadratura es el mayor entero no negativo n tal que la fórmula de integración es exacta para xk , para todo 
 >k = 0,...n.
 
-Así los métodos considerados en esta clase tienen la siguiente precisión.
+Así los métodos considerados en esta clase tienen la siguiente precisión 
 
 | Regla de cuadratura | Precisión |
 | :-----------------: | :-------: |
@@ -12,10 +12,7 @@ Así los métodos considerados en esta clase tienen la siguiente precisión.
 |     Punto medio     |     1     |
 |      Trapecio       |     1     |
 |       Simpson       |     3     |
-En la siguiente tabla se resumen las reglas simples de integración numérica para estimar
-$$
-\int_a^b f(x)dx:
-$$
+En la siguiente tabla se resumen las reglas simples de integración numérica para estimar$\int_a^b f(x)dx:$
 
 |      Regla      | Puntos |                      Fórumla                       |                 Error                  | Precisión |
 | :-------------: | :----: | :------------------------------------------------: | :------------------------------------: | :-------: |
